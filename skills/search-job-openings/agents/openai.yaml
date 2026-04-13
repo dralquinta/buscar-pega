@@ -1,0 +1,4 @@
+interface:
+  display_name: "Search Job Openings"
+  short_description: "Search LinkedIn jobs from a prompt"
+  default_prompt: "Use $search-job-openings to look for cloud architect jobs on LinkedIn."

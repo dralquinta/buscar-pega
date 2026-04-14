@@ -27,6 +27,17 @@ Use this checklist after producing a tailored resume draft.
 - Plain bullets and consistent punctuation.
 - Resume would still read correctly as plain text.
 
+## Format-Lock QA
+
+Use this section when the user asked to keep the original CV format unchanged.
+
+- The rewrite was applied to a copy of the original file, not a rebuilt template.
+- Fonts, spacing, margins, bullets, alignment, columns, tables, headers, footers, and visual hierarchy stayed unchanged.
+- Section order stayed unchanged unless the user explicitly allowed structural edits.
+- Content length was kept tight enough to avoid obvious reflow or page spillover where possible.
+- For `.docx`, `scripts/docx_format_guard.py` was run against the original and revised file.
+- If the format guard failed, the file was not presented as final.
+
 ## Tone QA
 
 - Language sounds like a real candidate, not a generic AI assistant.

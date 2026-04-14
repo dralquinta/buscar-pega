@@ -1,4 +1,4 @@
 interface:
   display_name: "Write Resume"
-  short_description: "Rewrite resumes for ATS-targeted roles"
-  default_prompt: "Use $write-resume to tailor my resume to this job description with ATS-friendly wording."
+  short_description: "Tailor resumes while preserving layout"
+  default_prompt: "Use $write-resume to tailor my resume to this job description while keeping the original CV format unchanged."
